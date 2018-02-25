@@ -1,0 +1,11 @@
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Service.deps.json
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Service.dll
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Service.pdb
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Interface.dll
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Interface.pdb
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.csprojResolveAssemblyReference.cache
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.csproj.CoreCompileInputs.cache
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.AssemblyInfoInputs.cache
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.AssemblyInfo.cs
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.dll
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.pdb

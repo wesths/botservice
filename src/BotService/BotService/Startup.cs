@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BotService.Interface.Contracts;
+using BotService.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +26,8 @@ namespace BotService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<IBotService, Service.BotService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
