@@ -7,3 +7,5 @@ C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\obj\Debug\netcor
 C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\obj\Debug\netcoreapp2.0\BotService.Interface.AssemblyInfo.cs
 C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\obj\Debug\netcoreapp2.0\BotService.Interface.dll
 C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\obj\Debug\netcoreapp2.0\BotService.Interface.pdb
+C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\bin\Debug\netcoreapp2.0\BotService.Domain.dll
+C:\Projects\ChatBot\Service\src\BotService\BotService.Interface\bin\Debug\netcoreapp2.0\BotService.Domain.pdb

@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotService.Interface", "Bot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotService.Service", "BotService.Service\BotService.Service.csproj", "{86CF033F-6C85-430A-982C-7BFF14E4E939}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{655B0112-2D17-410F-AD89-FC7BC46708E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotService.Infrastructure", "BotService.Infrastructure\BotService.Infrastructure.csproj", "{3E7D4D1A-AE3B-4ABE-93F1-E88B926AEF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotService.Domain", "BotService.Domain\BotService.Domain.csproj", "{49975BFD-1645-463B-9137-25D869A57CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,14 @@ Global
 		{86CF033F-6C85-430A-982C-7BFF14E4E939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86CF033F-6C85-430A-982C-7BFF14E4E939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86CF033F-6C85-430A-982C-7BFF14E4E939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7D4D1A-AE3B-4ABE-93F1-E88B926AEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7D4D1A-AE3B-4ABE-93F1-E88B926AEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7D4D1A-AE3B-4ABE-93F1-E88B926AEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7D4D1A-AE3B-4ABE-93F1-E88B926AEF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49975BFD-1645-463B-9137-25D869A57CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49975BFD-1645-463B-9137-25D869A57CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49975BFD-1645-463B-9137-25D869A57CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49975BFD-1645-463B-9137-25D869A57CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

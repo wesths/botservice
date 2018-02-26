@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BotService.Domain\BotService.Domain.csproj" />
     <ProjectReference Include="..\BotService.Interface\BotService.Interface.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "BotService.Service/1.0.0": {
         "dependencies": {
+          "BotService.Domain": "1.0.0",
           "BotService.Interface": "1.0.0"
         },
         "runtime": {
@@ -19,8 +20,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "BotService.Domain/1.0.0": {
+        "runtime": {
+          "BotService.Domain.dll": {}
+        }
+      },
       "BotService.Interface/1.0.0": {
         "dependencies": {
+          "BotService.Domain": "1.0.0",
           "Newtonsoft.Json": "11.0.1"
         },
         "runtime": {
@@ -41,6 +48,11 @@
       "sha512": "sha512-pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
       "path": "newtonsoft.json/11.0.1",
       "hashPath": "newtonsoft.json.11.0.1.nupkg.sha512"
+    },
+    "BotService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BotService.Interface/1.0.0": {
       "type": "project",

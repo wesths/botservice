@@ -1,3 +1,8 @@
 src/BotService/.vs/
 src/BotService/BotService/bin/
 src/BotService/BotService/obj/
+*.props
+*.targets
+*.txt
+/src/BotService/BotService.Domain/obj
+/src/BotService/BotService.Infrastructure/obj

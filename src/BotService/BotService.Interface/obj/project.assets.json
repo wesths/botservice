@@ -205,6 +205,16 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "BotService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BotService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BotService.Domain.dll": {}
+        }
       }
     }
   },
@@ -693,10 +703,16 @@
         "newtonsoft.json.11.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
+    },
+    "BotService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BotService.Domain/BotService.Domain.csproj",
+      "msbuildProject": "../BotService.Domain/BotService.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "BotService.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 11.0.1"
     ]
@@ -736,7 +752,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\ChatBot\\Service\\src\\BotService\\BotService.Domain\\BotService.Domain.csproj": {
+              "projectPath": "C:\\Projects\\ChatBot\\Service\\src\\BotService\\BotService.Domain\\BotService.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

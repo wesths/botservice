@@ -1,26 +1,22 @@
-﻿using BotService.Interface.Contracts;
+﻿using BotService.Domain.Repo;
+using BotService.Interface.Contracts;
 using System;
 
 namespace BotService.Service
 {
     public class AccountService : IAccountService
     {
+        private ICustomerAccountRepo _customerAccountRepo;
+        public AccountService(ICustomerAccountRepo customerAccountRepo)
+        {
+            _customerAccountRepo = customerAccountRepo;
+        }
         public decimal GetCustomerAccountBalance(int personNo)
         {
-            
-            if (personNo == 118611783)
-            {
-                return 1000.00M;
-            }
-            else if (personNo == 999999999)
-            { 
-                return 9999.00M;
+            var details = _customerAccountRepo.GetCustomerAccountDetails(personNo);
 
-            }
-            else
-            {
-                return 0.00M;
-            }
+            return details.BalanceOutstanding;
+            
         }
     }
 }

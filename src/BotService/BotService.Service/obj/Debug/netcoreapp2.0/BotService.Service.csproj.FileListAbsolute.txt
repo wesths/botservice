@@ -9,3 +9,5 @@ C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcorea
 C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.AssemblyInfo.cs
 C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.dll
 C:\Projects\ChatBot\Service\src\BotService\BotService.Service\obj\Debug\netcoreapp2.0\BotService.Service.pdb
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Domain.dll
+C:\Projects\ChatBot\Service\src\BotService\BotService.Service\bin\Debug\netcoreapp2.0\BotService.Domain.pdb
